@@ -1,0 +1,25 @@
+{
+  "name": "agent-exchange-api",
+  "version": "1.0.0",
+  "description": "AI Agent Service Exchange API - USDC Hackathon",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create agent-exchange-db",
+    "db:migrate": "wrangler d1 execute agent-exchange-db --remote --file=schema.sql",
+    "db:migrate:local": "wrangler d1 execute agent-exchange-db --local --file=schema.sql"
+  },
+  "keywords": [
+    "ai-agents",
+    "usdc",
+    "exchange",
+    "cloudflare-workers",
+    "d1"
+  ],
+  "author": "Agent Exchange Team",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+name = "agent-exchange-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "590a7c3bcfe00d6b3a1a9349d79e448b"
+
+[vars]
+ENVIRONMENT = "production"
+API_VERSION = "v1"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agent-exchange-db"
+database_id = "a0b428cc-285c-43d5-9279-8982195cf13e"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "2a4e5dcee1d2420d901dcdb15bab44d1"
