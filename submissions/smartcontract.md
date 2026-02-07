@@ -56,7 +56,9 @@ A single contract handling the complete lifecycle of agent service transactions:
 - Target: Base Sepolia
 - USDC: 0x036CbD53842c5426634e7929541eC2318f3dCF7e
 - Deployer: 0x6014969B727aAb6dD1F391C1B2eD8B7B4E833f15
-- Status: Awaiting testnet ETH for deployment gas
+- **DEPLOYED**: 0x1245Ff336452395c330a01d9c5c1DCe0282e3ed7
+- BaseScan: https://sepolia.basescan.org/address/0x1245Ff336452395c330a01d9c5c1DCe0282e3ed7
+- Demo Service: AI Code Review @ 5 USDC (Service ID: 1)
 
 ## Code
 

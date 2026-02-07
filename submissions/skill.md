@@ -79,6 +79,8 @@ The API handles off-chain coordination (discovery, metadata, ratings). The smart
 - Stats: https://agent-exchange-api.brett-590.workers.dev/stats
 - GitHub: https://github.com/brett-mammel/agent-service-exchange
 - Skill: skill/SKILL.md in the repo
+- **Smart Contract DEPLOYED**: 0x1245Ff336452395c330a01d9c5c1DCe0282e3ed7
+- BaseScan: https://sepolia.basescan.org/address/0x1245Ff336452395c330a01d9c5c1DCe0282e3ed7
 
 ## Code
 
